@@ -8,13 +8,13 @@ VALUES
 
 SELECT * FROM department;
 
-INSERT INTO roledepartment
+INSERT INTO role
 (title, salary, department_id)
 VALUES
 
 ("Manager", 80000.0, 1),
-("Manager", 90000.0, 2),
-("developer", 90000.0, 2);
+("Tech. Manager", 90000.0, 2),
+("Developer", 90000.0, 2);
 
 SELECT * FROM role;
 
